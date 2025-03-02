@@ -25,7 +25,7 @@ Release/
 *.o
 
 # Build directories
-x64/
+.x64/
 x86/
 ARM/
 ARM64/
@@ -41,3 +41,5 @@ Release/
 *.exp
 *.log
 *.tlog
+Ivan_And.cefbff09
+*.vcxproj.user
