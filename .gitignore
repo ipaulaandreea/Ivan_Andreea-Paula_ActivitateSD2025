@@ -23,3 +23,21 @@ Release/
 *.exp
 *.idb
 *.o
+
+# Build directories
+x64/
+x86/
+ARM/
+ARM64/
+Debug/
+Release/
+*.ilk
+*.idb
+*.pdb
+*.obj
+*.exe
+*.dll
+*.lib
+*.exp
+*.log
+*.tlog
