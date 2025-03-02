@@ -1,1 +1,25 @@
 .vs
+# Visual Studio specific
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+*.ncb
+*.sdf
+*.ipch
+*.cache
+*.ilk
+*.log
+*.tlog
+*.pdb
+
+# Build output
+Debug/
+Release/
+*.obj
+*.exe
+*.dll
+*.lib
+*.exp
+*.idb
+*.o
