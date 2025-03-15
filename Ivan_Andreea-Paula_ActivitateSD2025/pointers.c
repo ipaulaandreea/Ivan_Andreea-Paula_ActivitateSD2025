@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<malloc.h>
+#include<stdlib.h>
 
 //void swap(int a, int b){
 //    int temp;
@@ -171,5 +172,63 @@ int main()
 //int * myFunction(){}
 
 ///#########DYNAMIC MEMORY ALLOCATION##########////
+//whenever you define a variable in C, the compiler automatically
+//allocates the correct amount of storage based on the data type
+//it is frequently desirable to be able to allocate storage while a program is running
 
+//Heap vs. Stack
+// -> dynamic memory allocation reserves space in a memory area called the heap\
+// because you need to be able to control when you use it, otherwise it would disappear after function ends execution
+// -> the stack is another place where memory is allocated
+// -> function arguments and local variables in a function (including the main function) are stored here
+// -> when the execution of a function ends,
+// the space allocated to store arguments and local variables is free
+// stuff on the stack gets automatically deleted and automatically allocated
+//the memory in the heap is different in that it is controlled by you
+// when you allocate memory on the heap, it is up to you to keep track of when the memory you
+//have allocated is no longer required
+//you must free the space you have allocated to allow it to be reused
+
+//malloc, calloc, realloc
+//- the simplest standard library function that allocated memory at runtime is called malloc()
+//- need to include the stdlib.h header file
+//you specify the numbe of bytes of memory that you want allcated in the argument
+//returns the address of the first byte of memory that is allocated
+//because you get an address returnes, a pointer is the only place to put it
+
+//int *pNumber = (int*)malloc(100);
+//you need to cast the address to an int pointer type because malloc by default returns
+//a pointer of type void
+//in the example above, you have requested 100 bytes of memory and assigned the address of this memory back to pNumber;
+//pNumber will point to the first int location at the beginning of the 100 bytes that were allocated
+//can hold 25 int values on my computer, because they require 4 bytes each
+//assumes that type int requires 4 bytes
+ //its a bad approach to assume the size youlll be needing. instead:
+
+ int *pNumber = (int*)malloc(25*sizeof(int));
+//number of integers you want to allocate*the size of one integer -> prevents cross plaform compatibility issues
+//whenvever you are using malloc, it is a good idea to always check for null, just like in the case of dereferencing pointers
+if(!pNumber){
+    //code to deal with memory allocation failue -> call exit;
+}
+//releasing memory
+//when you allocate memory dynmically, you should always release the memory when it is no longer required
+//memory that you allocate on the heap will be automatically released when your program ends
+//its better to explicitly release the memory when you are done with it, even if its just before you exit the program
+// a memory leak occurs when you allocate some memory dynamically and you do not retain the reference to it,
+//so you are unable to release the memory
+//often occurs within a loop; each loop iteration will allocate memory
+//because you do not release the memory when it is no longer required, your program consumes more
+//and more of the available memory of each loop iteration and eventually may occupy it all
+//to free memory that you have allocated dynamically, you must still have access to the address that references that block of memory
+
+//to release the memory from a block of dynamically allocated memory whose address you have stored in a pointer
+free(pNumber);
+pNumber = NULL; //no memory allocated to that pointer anymore
+
+//the free() function has a formal parameter of type void*
+//as long as pNumber contains the address that was returned when the memory was allocated, the entire block of memory will be freed for further use
+//you should always set the pointer to Null after the memory that it points to has been freed
+
+//calloc
 }
