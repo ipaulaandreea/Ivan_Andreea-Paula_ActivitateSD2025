@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<malloc.h>
 #include<stdlib.h>
+#include<string.h>
 
 //void swap(int a, int b){
 //    int temp;
@@ -231,4 +232,21 @@ pNumber = NULL; //no memory allocated to that pointer anymore
 //you should always set the pointer to Null after the memory that it points to has been freed
 
 //calloc
+// allocates memory as a number of elements of a given size
+//it initializes the memory that is allocated so that all bytes are zero
+// return value will be NULL -> all ints will be 0
+
+char* str;
+//initial memory allocation for what it's pointing to
+str=(char*) malloc(15 * sizeof(char));
+strcpy(str, "jason");
+printf("String = %s, Address = %p\n", str, str);
+
+//reallocating memory
+str =(char*) realloc(str, 25 * sizeof(char));
+strcat(str, ".com");
+printf("String = %s, Address = %p\n", str, str);
+free(str);
+
+return 0;
 }
