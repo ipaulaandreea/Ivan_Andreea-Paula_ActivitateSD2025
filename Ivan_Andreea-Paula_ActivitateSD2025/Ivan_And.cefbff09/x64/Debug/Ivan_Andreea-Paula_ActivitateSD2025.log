@@ -1,2 +1,4 @@
-﻿  Ivan_Andreea-Paula_ActivitateSD2025.c
+﻿  StructuraSiFunctii.c
+C:\Users\andre\coding\C\Ivan_Andreea-Paula_ActivitateSD2025\Ivan_Andreea-Paula_ActivitateSD2025\x64\Tasks\StructuraSiFunctii.c(54,9): warning C4033: 'calculareMediePreturiCursuri' must return a value
+C:\Users\andre\coding\C\Ivan_Andreea-Paula_ActivitateSD2025\Ivan_Andreea-Paula_ActivitateSD2025\x64\Tasks\StructuraSiFunctii.c(63,1): warning C4715: 'calculareMediePreturiCursuri': not all control paths return a value
   Ivan_Andreea-Paula_ActivitateSD2025.vcxproj -> C:\Users\andre\coding\C\Ivan_Andreea-Paula_ActivitateSD2025\Ivan_Andreea-Paula_ActivitateSD2025\x64\Debug\Ivan_Andreea-Paula_ActivitateSD2025.exe

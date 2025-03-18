@@ -18,5 +18,8 @@
     <ClCompile Include="Ivan_Andreea-Paula_ActivitateSD2025.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="x64\Tasks\StructuraSiFunctii.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
