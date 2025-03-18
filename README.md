@@ -1,6 +1,6 @@
 # Task-uri suplimentare
 
-## 1. Structura și funcții
+## 1. Structura și funcții ✅
 Se consideră prima literă din numele vostru și prima literă din prenumele vostru. Se va construi un articol care să conțină aceste două litere.
 
 **Exemplu:**  
