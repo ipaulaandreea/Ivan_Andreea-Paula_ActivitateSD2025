@@ -114,3 +114,4 @@ struct Magazin {
   - Pe o **listă simplu înlănțuită**.
   - Pe o **listă dublu înlănțuită**.
 
+  ---
