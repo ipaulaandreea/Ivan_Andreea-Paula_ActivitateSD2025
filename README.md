@@ -114,15 +114,3 @@ struct Magazin {
   - Pe o **listă simplu înlănțuită**.
   - Pe o **listă dublu înlănțuită**.
 
----
-
-## Instrucțiuni de rulare
-1. Compilați programul folosind un compilator C (ex: `gcc`).
-2. Rulați executabilul generat.
-3. Asigurați-vă că fișierele necesare sunt prezente pentru testare.
-
----
-
-## Autor
-- **Nume:** [Numele vostru]
-- **Data:** [Data completării]
