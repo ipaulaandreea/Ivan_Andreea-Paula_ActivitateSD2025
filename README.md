@@ -36,11 +36,11 @@ struct Magazin {
 
 ---
 
-## 3. Fișiere
+## 3. Fișiere ✅
 - Crearea unui fișier cu cel puțin 10 obiecte.
-- Funcție pentru citirea obiectelor din fișier și salvarea într-un vector.
-- Funcție pentru salvarea unui obiect într-un fișier text.
-- Funcție pentru salvarea unui vector de obiecte într-un fișier text.
+- 3.1. Funcție pentru citirea obiectelor din fișier și salvarea într-un vector.
+- 3.2. Funcție pentru salvarea unui obiect într-un fișier text.
+- 3.3. Funcție pentru salvarea unui vector de obiecte într-un fișier text.
 
 ---
 
