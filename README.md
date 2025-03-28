@@ -1,8 +1,11 @@
 # Task-uri suplimentare
 
 ## 1. Structura și funcții ✅
-Se consideră prima literă din numele vostru și prima literă din prenumele vostru. Se va construi un articol care să conțină aceste două litere.
-
+1.1. Se consideră prima literă din numele vostru și prima literă din prenumele vostru. Se va construi un articol care să conțină aceste două litere.
+- Articolul trebuie să aibă logică.
+- Articolul trebuie să fie un substantiv.
+- Trebuie să aibă cel puțin trei atribute, dintre care unul alocat dinamic.
+- 
 **Exemplu:**  
 Alin Zamfiroiu → A și Z.  
 **Structura:**  
@@ -14,23 +17,21 @@ struct Magazin {
     float *preturi;
 };
 ```
-- Articolul trebuie să aibă logică.
-- Articolul trebuie să fie un substantiv.
-- Trebuie să aibă cel puțin trei atribute, dintre care unul alocat dinamic.
+
 - Funcții necesare:
-  - Funcție pentru citirea unui articol de la tastatură.
-  - Funcție care calculează o valoare (ex: medie, sumă, maxim, minim).
-  - Funcție care modifică un atribut al articolului.
-  - Funcție pentru afișarea unui articol.
+  - 1.2. Funcție pentru citirea unui articol de la tastatură.
+  - 1.3. Funcție care calculează o valoare (ex: medie, sumă, maxim, minim).
+  - 1.4. Funcție care modifică un atribut al articolului.
+  - 1.5. Funcție pentru afișarea unui articol.
 
 ---
 
-## 2. Vectori
-- Crearea unui vector alocat dinamic cu cel puțin 5 obiecte de tipul structurii definite.
-- Funcție pentru copierea obiectelor care îndeplinesc o condiție într-un nou vector.
-- Funcție pentru mutarea obiectelor care îndeplinesc o altă condiție într-un nou vector.
-- Funcție pentru concatenarea a doi vectori.
-- Funcție pentru afișarea unui vector de obiecte.
+## 2. Vectori ✅
+- 2.1. Crearea unui vector alocat dinamic cu cel puțin 5 obiecte de tipul structurii definite.
+- 2.2. Funcție pentru copierea obiectelor care îndeplinesc o condiție într-un nou vector.
+- 2.3. Funcție pentru mutarea obiectelor care îndeplinesc o altă condiție într-un nou vector.
+- 2.4. Funcție pentru concatenarea a doi vectori.
+- 2.5. Funcție pentru afișarea unui vector de obiecte.
 - Apelarea tuturor funcțiilor în `main()`.
 
 ---
