@@ -1,4 +1,6 @@
-﻿  StructuraSiFunctii.c
-C:\Users\andre\coding\C\Ivan_Andreea-Paula_ActivitateSD2025\Ivan_Andreea-Paula_ActivitateSD2025\x64\Tasks\StructuraSiFunctii.c(54,9): warning C4033: 'calculareMediePreturiCursuri' must return a value
-C:\Users\andre\coding\C\Ivan_Andreea-Paula_ActivitateSD2025\Ivan_Andreea-Paula_ActivitateSD2025\x64\Tasks\StructuraSiFunctii.c(63,1): warning C4715: 'calculareMediePreturiCursuri': not all control paths return a value
-  Ivan_Andreea-Paula_ActivitateSD2025.vcxproj -> C:\Users\andre\coding\C\Ivan_Andreea-Paula_ActivitateSD2025\Ivan_Andreea-Paula_ActivitateSD2025\x64\Debug\Ivan_Andreea-Paula_ActivitateSD2025.exe
+﻿  Ivan_Andreea-Paula_ActivitateSD2025.c
+/Ivan_Andreea-Paula_ActivitateSD2025.c(1,1): error C1083: Cannot open source file: 'Ivan_Andreea-Paula_ActivitateSD2025.c': No such file or directory
+  (compiling source file '/Ivan_Andreea-Paula_ActivitateSD2025.c')
+  
+  StructuraSiFunctii.c
+  Generating Code...

@@ -44,7 +44,7 @@ struct Magazin {
 
 ---
 
-## 4. Matrice
+## 4. Matrice ✅
 - 4.0. Citirea obiectelor dintr-un fișier și salvarea într-un vector.
 - 4.1. Functie care sa copieze (deep copy) elementele din vector intr-o matrice alocată
   dinamic. Asezarea in matrice pe linii a obiectelor o faceti dupa un criteriu aplicat unui
