@@ -90,7 +90,7 @@ int stergereNod(int pozitie, LS* lista) {
 	return 0;
 }
 
-//2. Funcție pentru inserarea elementelor în ordine crescătoare după un atribut.
+//2. Functie pentru inserarea elementelor in ordine crescatoare dupa un atribut.
 void inserareDupaNumarulCursurilor(LS* lista, Nod* nod) {
 	if (lista == NULL || nod == NULL) {
 		return;
@@ -110,7 +110,7 @@ void inserareDupaNumarulCursurilor(LS* lista, Nod* nod) {
 	temp->next = nod;
 }
 
-//3. Funcție pentru salvarea într-un vector a elementelor care îndeplinesc o condiție(deep copy).
+//3. Functie pentru salvarea intr-un vector a elementelor care indeplinesc o conditie(deep copy).
 void salvareInVector(LS lista, int nrMinimCursuri, Participant** vectorParticipanti, int* dimensiune) {
 	if (vectorParticipanti == NULL || dimensiune == NULL) {
 		return;
