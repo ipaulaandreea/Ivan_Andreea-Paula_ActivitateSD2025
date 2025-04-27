@@ -55,7 +55,7 @@ struct Magazin {
 
 ---
 
-## 5. Liste simplu înlănțuite
+## 5. Liste simplu înlănțuite ✅
 - Funcție pentru ștergerea unui nod de pe o poziție dată.
 - Funcție pentru inserarea elementelor în ordine crescătoare după un atribut.
 - Funcție pentru salvarea într-un vector a elementelor care îndeplinesc o condiție (deep copy).
