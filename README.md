@@ -63,7 +63,7 @@ struct Magazin {
 
 ---
 
-## 6. Liste dublu înlănțuite
+## 6. Liste dublu înlănțuite ✅
 - Funcție pentru ștergerea unui nod de pe o poziție dată.
 - Funcție pentru inserarea elementelor în ordine crescătoare după un atribut.
 - Funcții pentru parcurgerea listei în ordine crescătoare și descrescătoare.
