@@ -5,7 +5,7 @@
 - Articolul trebuie să aibă logică.
 - Articolul trebuie să fie un substantiv.
 - Trebuie să aibă cel puțin trei atribute, dintre care unul alocat dinamic.
-- 
+ 
 **Exemplu:**  
 Alin Zamfiroiu → A și Z.  
 **Structura:**  
@@ -72,7 +72,7 @@ struct Magazin {
 
 ---
 
-## 7. HashTable ✅
+## 7. HashTables ✅
 - 7.1. Crearea unei tabele de dispersie pentru stocarea clădirilor din București (clustere pe baza anului construirii).
 - 7.2. Funcție pentru afișarea clădirilor dintr-un anumit an.
 - 7.3. Funcție pentru ștergerea unei clădiri pe baza ID-ului și anului construirii.
@@ -83,7 +83,7 @@ struct Magazin {
 
 ---
 
-## 8. Heap
+## 8. Heaps
 - 8.1. Implementarea unui sistem pentru gestiunea pacienților la Unitatea de Primiri Urgențe (UPU).
 - 8.2. Structura **Pacient** include un grad de urgență.
 - 8.3. Utilizarea unui **Max-Heap** pentru gestionarea pacienților astfel încât cei mai urgenti să fie preluați cu prioritate.
@@ -118,4 +118,4 @@ struct Magazin {
   - 11.2.2. Pe o **listă simplu înlănțuită**.
   - 11.2.3.Pe o **listă dublu înlănțuită**.
 
-  ---
+---
