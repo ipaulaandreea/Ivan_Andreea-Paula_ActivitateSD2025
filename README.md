@@ -56,66 +56,66 @@ struct Magazin {
 ---
 
 ## 5. Liste simplu înlănțuite ✅
-- Funcție pentru ștergerea unui nod de pe o poziție dată.
-- Funcție pentru inserarea elementelor în ordine crescătoare după un atribut.
-- Funcție pentru salvarea într-un vector a elementelor care îndeplinesc o condiție (deep copy).
-- Funcție pentru interschimbarea a două elemente în listă pe baza pozițiilor.
+- 5.1. Funcție pentru ștergerea unui nod de pe o poziție dată.
+- 5.2. Funcție pentru inserarea elementelor în ordine crescătoare după un atribut.
+- 5.3. Funcție pentru salvarea într-un vector a elementelor care îndeplinesc o condiție (deep copy).
+- 5.4. Funcție pentru interschimbarea a două elemente în listă pe baza pozițiilor.
 
 ---
 
 ## 6. Liste dublu înlănțuite ✅
-- Funcție pentru ștergerea unui nod de pe o poziție dată.
-- Funcție pentru inserarea elementelor în ordine crescătoare după un atribut.
-- Funcții pentru parcurgerea listei în ordine crescătoare și descrescătoare.
-- Funcție pentru salvarea elementelor într-o listă simplu înlănțuită (deep copy).
-- Funcție pentru interschimbarea a două elemente din listă pe baza pozițiilor.
+- 6.1. Funcție pentru ștergerea unui nod de pe o poziție dată.
+- 6.2. Funcție pentru inserarea elementelor în ordine crescătoare după un atribut.
+- 6.3. Funcții pentru parcurgerea listei în ordine crescătoare și descrescătoare.
+- 6.4. Funcție pentru salvarea elementelor într-o listă simplu înlănțuită (deep copy).
+- 6.5. Funcție pentru interschimbarea a două elemente din listă pe baza pozițiilor.
 
 ---
 
-## 7. HashTable
-- Crearea unei tabele de dispersie pentru stocarea clădirilor din București (clustere pe baza anului construirii).
-- Funcție pentru afișarea clădirilor dintr-un anumit an.
-- Funcție pentru ștergerea unei clădiri pe baza ID-ului și anului construirii.
-- Funcție pentru ștergerea unei clădiri doar pe baza ID-ului.
-- Observarea diferenței dintre cele două funcții de ștergere.
-- Funcție pentru salvarea într-un vector a clădirilor dintr-un anumit an (deep copy).
-- Funcție pentru modificarea anului de construire a unei clădiri (cu actualizarea clusterizării).
+## 7. HashTable ✅
+- 7.1. Crearea unei tabele de dispersie pentru stocarea clădirilor din București (clustere pe baza anului construirii).
+- 7.2. Funcție pentru afișarea clădirilor dintr-un anumit an.
+- 7.3. Funcție pentru ștergerea unei clădiri pe baza ID-ului și anului construirii.
+- 7.4. Funcție pentru ștergerea unei clădiri doar pe baza ID-ului.
+- 7.5. Observarea diferenței dintre cele două funcții de ștergere.
+- 7.6. Funcție pentru salvarea într-un vector a clădirilor dintr-un anumit an (deep copy).
+- 7.7. Funcție pentru modificarea anului de construire a unei clădiri (cu actualizarea clusterizării).
 
 ---
 
 ## 8. Heap
-- Implementarea unui sistem pentru gestiunea pacienților la Unitatea de Primiri Urgențe (UPU).
-- Structura **Pacient** include un grad de urgență.
-- Utilizarea unui **Max-Heap** pentru gestionarea pacienților astfel încât cei mai urgenti să fie preluați cu prioritate.
+- 8.1. Implementarea unui sistem pentru gestiunea pacienților la Unitatea de Primiri Urgențe (UPU).
+- 8.2. Structura **Pacient** include un grad de urgență.
+- 8.3. Utilizarea unui **Max-Heap** pentru gestionarea pacienților astfel încât cei mai urgenti să fie preluați cu prioritate.
 
 ---
 
 ## 9. Arbori binari de căutare (BST)
-- Funcție pentru ștergerea unui nod pe baza unui ID, menținând proprietățile arborelui BST.
-- Funcție pentru returnarea subarborelui cu înălțimea mai mare.
-- Funcție pentru numărarea nodurilor subordonate unui nod.
-- Funcție pentru returnarea subarborelui cu mai multe noduri în subordine.
+- 9.1. Funcție pentru ștergerea unui nod pe baza unui ID, menținând proprietățile arborelui BST.
+- 9.2. Funcție pentru returnarea subarborelui cu înălțimea mai mare.
+- 9.3. Funcție pentru numărarea nodurilor subordonate unui nod.
+- 9.4. Funcție pentru returnarea subarborelui cu mai multe noduri în subordine.
 
 ---
 
 ## 10. Arbori AVL
-- Implementarea unui arbore binar de căutare echilibrat (AVL).
-- Verificarea și aplicarea rotațiilor pentru menținerea echilibrului.
-- Funcție de căutare a unui nod în arbore pe baza unui ID.
-- Funcție pentru salvarea nodurilor într-un vector folosind **preordine, inordine, postordine**.
-- Funcție pentru salvarea nodurilor într-o listă simplu înlănțuită (preordine, inordine, postordine).
-- Funcție pentru salvarea nodurilor într-o listă dublu înlănțuită (preordine, inordine, postordine).
+- 10.1. Implementarea unui arbore binar de căutare echilibrat (AVL).
+- 10.2. Verificarea și aplicarea rotațiilor pentru menținerea echilibrului.
+- 10.3. Funcție de căutare a unui nod în arbore pe baza unui ID.
+- 10.4. Funcție pentru salvarea nodurilor într-un vector folosind **preordine, inordine, postordine**.
+- 10.5. Funcție pentru salvarea nodurilor într-o listă simplu înlănțuită (preordine, inordine, postordine).
+- 10.6. Funcție pentru salvarea nodurilor într-o listă dublu înlănțuită (preordine, inordine, postordine).
 
 ---
 
 ## 11. Stive și cozi
 - **Stivă (LIFO):**
-  - Pe un **vector**.
-  - Pe o **listă simplu înlănțuită**.
-  - Pe o **listă dublu înlănțuită**.
+  - 11.1.1. Pe un **vector**.
+  - 11.1.2. Pe o **listă simplu înlănțuită**.
+  - 11.1.3. Pe o **listă dublu înlănțuită**.
 - **Coada (FIFO):**
-  - Pe un **vector**.
-  - Pe o **listă simplu înlănțuită**.
-  - Pe o **listă dublu înlănțuită**.
+  - 11.2.1. Pe un **vector**.
+  - 11.2.2. Pe o **listă simplu înlănțuită**.
+  - 11.2.3.Pe o **listă dublu înlănțuită**.
 
   ---
