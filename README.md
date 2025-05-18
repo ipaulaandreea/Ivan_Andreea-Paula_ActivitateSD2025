@@ -83,7 +83,7 @@ struct Magazin {
 
 ---
 
-## 8. Heaps
+## 8. Heaps ✅
 - 8.1. Implementarea unui sistem pentru gestiunea pacienților la Unitatea de Primiri Urgențe (UPU).
 - 8.2. Structura **Pacient** include un grad de urgență.
 - 8.3. Utilizarea unui **Max-Heap** pentru gestionarea pacienților astfel încât cei mai urgenti să fie preluați cu prioritate.

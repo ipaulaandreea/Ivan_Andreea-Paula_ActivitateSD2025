@@ -1,0 +1,5 @@
+1,4,21500.75,Volkswagen Golf,Andrei Popescu,A
+2;2;38000.00;BMW M4;Maria Ionescu;B
+3,5,14500.99,Dacia Logan,Ionut Marinescu,C
+4;3;61000.30;Audi TT;Elena Dragomir;D
+5,4,32750.10,Skoda Octavia,Victor Petrescu,E

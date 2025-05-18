@@ -1,0 +1,5 @@
+101,Popescu Ion,45,90,Durere toracica
+102,Ionescu Maria,30,50,Tuse seaca
+103,Georgescu Vlad,70,95,Pierderea cunostintei
+104,Stan Ana,22,40,Febra si dureri musculare
+105,Petrescu Mihai,60,85,Accident rutier, fracturI multiple
