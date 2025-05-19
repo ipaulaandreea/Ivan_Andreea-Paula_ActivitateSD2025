@@ -90,7 +90,7 @@ struct Magazin {
 
 ---
 
-## 9. Arbori binari de căutare (BST)
+## 9. Arbori binari de căutare (BST) ✅
 - 9.1. Funcție pentru ștergerea unui nod pe baza unui ID, menținând proprietățile arborelui BST.
 - 9.2. Funcție pentru returnarea subarborelui cu înălțimea mai mare.
 - 9.3. Funcție pentru numărarea nodurilor subordonate unui nod.
