@@ -98,7 +98,7 @@ struct Magazin {
 
 ---
 
-## 10. Arbori AVL
+## 10. Arbori AVL ✅
 - 10.1. Implementarea unui arbore binar de căutare echilibrat (AVL).
 - 10.2. Verificarea și aplicarea rotațiilor pentru menținerea echilibrului.
 - 10.3. Funcție de căutare a unui nod în arbore pe baza unui ID.
