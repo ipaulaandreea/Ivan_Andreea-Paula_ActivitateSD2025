@@ -109,7 +109,7 @@ struct Magazin {
 ---
 
 ## 11. Stive și cozi
-- **Stivă (LIFO):**
+- **Stivă (LIFO):** ✅
   - 11.1.1. Pe un **vector**.
   - 11.1.2. Pe o **listă simplu înlănțuită**.
   - 11.1.3. Pe o **listă dublu înlănțuită**.
